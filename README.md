@@ -1,5 +1,9 @@
 # fixFT2232_ecp5evn
-Tool to fix FT2232's uart interface configuration for ecp5evn (LFE5UM5G-85F-EVN) board.
+Tool to fix FT2232's uart interface configuration for
+[ecp5evn (LFE5UM5G-85F-EVN)](https://www.latticesemi.com/products/developmentboardsandkits/ecp5evaluationboard) and
+[CrossLink-NX EVN
+(LIFCL-40-EVN)](https://www.latticesemi.com/en/Products/DevelopmentBoardsAndKits/CrossLink-NXEvaluationBoard)
+boards.
 
 An SPI flash is used by FT2232 to store device configuration. By default, with the ecp5 evn board, FT2232 interface B used as UART is configured in FIFO mode. With this behavior it's not possible to communicate with the FPGA.
 
